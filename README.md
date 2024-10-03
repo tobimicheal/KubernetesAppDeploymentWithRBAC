@@ -22,11 +22,35 @@ Setting Up the Kubernetes Cluster Using Minikube:
   ```
   minikube start
  ```
-
 Verify that Minikube is running:
+```
+ minikube status
+```
 
-bash
+Deploying the Sample App by using a basic Node.js app with an Nginx proxy.
+ Create a Kubernetes deployment YAML file (code in the multi-container-app.yaml file)
+ Deploy the Application::
+    ```
+     kubectl apply -f multi-container-app.yaml
+    ```
+  Verify Deployment:
+    ```
+     kubectl get pods
+    ```
 
-minikube status
+Expose the Application port:
+   ```
+     kubectl expose deployment multi-container-app --type=NodePort --port=80 --target-port=3000
+   ```
+Access the Application using minikube:
+ ```
+    minikube service multi-container-app --url
+ ```
+ Implement RBAC
 
-    Start Minikube:
+
+
+
+kubectl apply -f sample-app-deployment.yaml
+
+ 
