@@ -1,8 +1,8 @@
 # KubernetesAppDeploymentWithRBAC
-Introduction
 This documentation outlines the steps to deploy a sample multi-container application on a local Kubernetes cluster and implement Role-Based Access Control (RBAC) to manage access to the Kubernetes resources.
 
 Table of Contents
+
 Prerequisites
 Setting Up the Kubernetes Cluster
 Using Minikube
