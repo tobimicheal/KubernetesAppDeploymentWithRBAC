@@ -3,7 +3,7 @@ This documentation outlines the steps to deploy a sample multi-container applica
 
 Table of Contents
 
-Prerequisites
+<u> Prerequisites </u>
 
 Setting Up the Kubernetes Cluster
 
@@ -22,6 +22,7 @@ Prerequisites :
     kubectl installed, 
     Minikube or Kind installed and 
     Basic knowledge of Kubernetes concepts
+
 
 Setting Up the Kubernetes Cluster Using Minikube:
   ```
