@@ -18,25 +18,9 @@ Accessing the Application
 Conclusion
 
 
-Prerequisites
-    kubectl installed
-    Minikube or Kind installed
-    Basic knowledge of Kubernetes concepts
-
-Kubernetes Sample App Deployment and RBAC Implementation
-Table of Contents
-Introduction
-Prerequisites
-Setting Up the Kubernetes Cluster
-Using Minikube
-Deploying the Sample App
-Implementing RBAC
-Accessing the Application
-Conclusion
-
-Prerequisites
-    kubectl installed
-    Minikube or Kind installed
+Prerequisites :
+    kubectl installed, 
+    Minikube or Kind installed and 
     Basic knowledge of Kubernetes concepts
 
 Setting Up the Kubernetes Cluster Using Minikube:
