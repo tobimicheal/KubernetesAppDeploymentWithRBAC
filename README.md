@@ -4,11 +4,17 @@ This documentation outlines the steps to deploy a sample multi-container applica
 Table of Contents
 
 Prerequisites
+
 Setting Up the Kubernetes Cluster
+
 Using Minikube
+
 Deploying the Sample App
+
 Implementing RBAC
+
 Accessing the Application
+
 Conclusion
 
 
